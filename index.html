@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Batalla de Talentos SENA | Memoria visual del evento</title>
+  <meta name="description" content="Galería interactiva y memoria visual de la Batalla de Talentos SENA: baile, literatura, pintura y música. Revive las presentaciones, fotografías y la ceremonia de premiación.">
+  <meta name="keywords" content="Batalla de Talentos, SENA, evento cultural, baile, literatura, pintura, música, premiación">
+  <meta name="author" content="SENA - Batalla de Talentos">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Batalla de Talentos SENA">
+  <meta property="og:description" content="Un evento donde el talento, la creatividad y la pasión fueron los protagonistas.">
+  <meta property="og:type" content="website">
+
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500;1,9..144,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ============ BARRA DE PROGRESO DE SCROLL ============ -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- ============ NAVEGACIÓN ============ -->
+  <header class="site-header" id="siteHeader">
+    <nav class="navbar" aria-label="Navegación principal">
+      <a href="#inicio" class="nav-brand">
+        <span class="nav-brand__mark">BT</span>
+        <span class="nav-brand__text">Batalla de&nbsp;Talentos</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="navMenu">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#inicio" class="nav-link" data-section="inicio">Inicio</a></li>
+        <li><a href="#baile" class="nav-link" data-section="baile">Baile</a></li>
+        <li><a href="#literatura" class="nav-link" data-section="literatura">Literatura</a></li>
+        <li><a href="#pintura" class="nav-link" data-section="pintura">Pintura</a></li>
+        <li><a href="#musica" class="nav-link" data-section="musica">Música</a></li>
+        <li><a href="#premiacion" class="nav-link" data-section="premiacion">Premiación</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenido-principal">
+
+    <!-- ============ 1. INICIO ============ -->
+    <section id="inicio" class="hero" aria-label="Presentación del evento">
+      <div class="hero__backdrop" aria-hidden="true">
+        <span class="hero__blob hero__blob--1"></span>
+        <span class="hero__blob hero__blob--2"></span>
+        <span class="hero__blob hero__blob--3"></span>
+      </div>
+
+      <div class="hero__inner">
+        <div class="hero__copy">
+          <p class="hero__eyebrow">SENA · Memoria del evento</p>
+          <h1 class="hero__title">
+            Batalla de <span class="hero__title-accent">Talentos</span>
+          </h1>
+          <p class="hero__subtitle">
+            Un evento donde el talento, la creatividad y la pasión fueron los protagonistas.
+          </p>
+          <p class="hero__description">
+            Durante una jornada llena de energía, aprendices del SENA subieron al escenario para
+            compartir lo que más los apasiona: bailar, escribir, pintar y cantar. Esta página guarda
+            esa memoria — las fotos, los videos y las historias de cada batalla — para que el talento
+            que vimos ese día no se quede solo en el recuerdo.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#categorias" class="btn btn--primary">Explorar las categorías</a>
+            <a href="#premiacion" class="btn btn--ghost">Ir a la premiación</a>
+          </div>
+        </div>
+
+        <figure class="hero__figure">
+          <img
+            src="img/inicio.jpeg"
+            alt="Momento destacado de la inauguración de la Batalla de Talentos SENA"
+            class="hero__image"
+            width="1200" height="800"
+            loading="eager">
+          <figcaption class="visually-hidden">Apertura del evento Batalla de Talentos, SENA</figcaption>
+        </figure>
+      </div>
+
+      <a href="#categorias" class="hero__scroll-cue" aria-label="Desplazarse a las categorías">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ============ ÍNDICE DE CATEGORÍAS (ELEMENTO DE FIRMA) ============ -->
+    <section id="categorias" class="lineup" aria-label="Índice de categorías del evento">
+      <div class="lineup__header reveal">
+        <p class="section-eyebrow">El programa del día</p>
+        <h2 class="section-title">Cinco escenarios, una sola pasión</h2>
+        <p class="section-lead">
+          Así se vivió la Batalla de Talentos: cada categoría tuvo su propio escenario,
+          su propio público y su propia forma de emocionar.
+        </p>
+      </div>
+
+      <ol class="lineup__list">
+        <li class="lineup__item reveal">
+          <a href="#baile" class="lineup__link lineup__link--baile">
+            <span class="lineup__number">01</span>
+            <span class="lineup__name">Batalla de Baile</span>
+            <span class="lineup__desc">Cuerpo, ritmo y energía sobre el escenario</span>
+          </a>
+        </li>
+        <li class="lineup__item reveal">
+          <a href="#literatura" class="lineup__link lineup__link--literatura">
+            <span class="lineup__number">02</span>
+            <span class="lineup__name">Batalla de Literatura</span>
+            <span class="lineup__desc">Palabras que se convirtieron en escenario</span>
+          </a>
+        </li>
+        <li class="lineup__item reveal">
+          <a href="#pintura" class="lineup__link lineup__link--pintura">
+            <span class="lineup__number">03</span>
+            <span class="lineup__name">Batalla de Pintura</span>
+            <span class="lineup__desc">Color, técnica y un lienzo en blanco</span>
+          </a>
+        </li>
+        <li class="lineup__item reveal">
+          <a href="#musica" class="lineup__link lineup__link--musica">
+            <span class="lineup__number">04</span>
+            <span class="lineup__name">Batalla de Música</span>
+            <span class="lineup__desc">Voces e instrumentos en diálogo</span>
+          </a>
+        </li>
+        <li class="lineup__item reveal">
+          <a href="#premiacion" class="lineup__link lineup__link--premiacion">
+            <span class="lineup__number">05</span>
+            <span class="lineup__name">Premiación</span>
+            <span class="lineup__desc">El cierre que celebró a todos los participantes</span>
+          </a>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ 2. BATALLA DE BAILE ============ -->
+    <section id="baile" class="category category--baile" aria-labelledby="baile-titulo">
+      <div class="category__intro reveal">
+        <p class="section-eyebrow">Escenario 01</p>
+        <h2 class="section-title" id="baile-titulo">Batalla de Baile</h2>
+        <p class="section-lead">
+          El escenario se llenó de movimiento desde el primer compás. Parejas y grupos
+          presentaron coreografías de distintos géneros, combinando técnica, expresión
+          corporal y una conexión genuina con el público que no dejó de aplaudir.
+        </p>
+      </div>
+
+      <div class="category__content">
+        <div class="info-cards reveal">
+          <article class="info-card">
+            <span class="info-card__icon" aria-hidden="true">💃</span>
+            <h3>Presentaciones individuales</h3>
+            <p>Aprendices mostraron su estilo personal en rutinas que mezclaron disciplina y espontaneidad sobre el escenario principal.</p>
+          </article>
+          <article class="info-card">
+            <span class="info-card__icon" aria-hidden="true">🕺</span>
+            <h3>Coreografías grupales</h3>
+            <p>Equipos completos sincronizaron pasos y formaciones, demostrando horas de práctica y un trabajo en equipo notable.</p>
+          </article>
+          <article class="info-card">
+            <span class="info-card__icon" aria-hidden="true">✨</span>
+            <h3>Momentos destacados</h3>
+            <p>Giros, levantamientos y cambios de ritmo sorpresivos arrancaron ovaciones del público en varias presentaciones.</p>
+          </article>
+        </div>
+
+        <div class="gallery reveal" aria-label="Galería de fotografías de la Batalla de Baile">
+          <figure class="gallery__item gallery__item--tall">
+            <img src="img/batalla de talentos parte-1.jpeg" alt="Pareja de baile en plena coreografía durante la Batalla de Talentos" loading="lazy" width="800" height="1000">
+          </figure>
+          <figure class="gallery__item">
+            <img src="img/batalla de talentos parte-8.jpeg" alt="Grupo de baile sincronizado sobre el escenario" loading="lazy" width="800" height="600">
+          </figure>
+          <figure class="gallery__item">
+            <img src="img/batalla de talentos parte-3.jpeg" alt="Bailarín ejecutando un movimiento destacado frente al público" loading="lazy" width="800" height="600">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 3. BATALLA DE LITERATURA ============ -->
+    <section id="literatura" class="category category--literatura" aria-labelledby="literatura-titulo">
+      <div class="category__intro reveal">
+        <p class="section-eyebrow">Escenario 02</p>
+        <h2 class="section-title" id="literatura-titulo">Batalla de Literatura</h2>
+        <p class="section-lead">
+          Aquí el escenario fue la voz y el papel. Participantes compartieron poesía,
+          cuentos cortos y piezas de escritura creativa que hablaron de identidad,
+          sueños y la propia experiencia de ser aprendiz del SENA.
+        </p>
+        <video controls preload="metadata" class="video-frame__video" aria-label="Video de la ceremonia de premiación de la Batalla de Talentos">
+              <source src="https://res.cloudinary.com/dkamrnfvv/video/upload/v1781904060/goat_ycou4o.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de este video.
+          </video>
+      </div>
+
+      <div class="category__content">
+        <div class="info-cards reveal">
+          <article class="info-card">
+            <span class="info-card__icon" aria-hidden="true">📜</span>
+            <h3>Poesía</h3>
+            <p>Versos leídos en voz alta que exploraron desde el amor hasta la disciplina del aprendizaje técnico.</p>
+          </article>
+          <article class="info-card">
+            <span class="info-card__icon" aria-hidden="true">📖</span>
+            <h3>Cuento corto</h3>
+            <p>Relatos breves con giros inesperados que mantuvieron al público en silencio absoluto hasta el final.</p>
+          </article>
+          <article class="info-card">
+            <span class="info-card__icon" aria-hidden="true">✍️</span>
+            <h3>Escritura creativa</h3>
+            <p>Textos libres donde cada participante encontró su propia voz para contar una historia personal.</p>
+          </article>
+        </div>
+
+        <blockquote class="quote-block reveal">
+          <p>"Escribir es la forma más silenciosa de subir al escenario."</p>
+        </blockquote>
+
+        <div class="gallery reveal" aria-label="Galería de fotografías de la Batalla de Literatura">
+          <figure class="gallery__item">
+            <img src="img/batalla de talentos parte-12.jpeg" alt="Participante leyendo su obra durante la Batalla de Literatura" loading="lazy" width="800" height="600">
+          </figure>
+          <figure class="gallery__item gallery__item--tall">
+            <img src="img/batalla de talentos parte-7.jpeg" alt="Aprendiz presentando un cuento frente al jurado" loading="lazy" width="800" height="1000">
+          </figure>
+          <figure class="gallery__item">
+            <img src="img/batalla de talentos parte-8.jpeg" alt="Público escuchando atentamente una presentación literaria" loading="lazy" width="800" height="600">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 4. BATALLA DE PINTURA ============ -->
+    <section id="pintura" class="category category--pintura" aria-labelledby="pintura-titulo">
+      <div class="category__intro reveal">
+        <p class="section-eyebrow">Escenario 03</p>
+        <h2 class="section-title" id="pintura-titulo">Batalla de Pintura</h2>
+        <p class="section-lead">
+          Lienzos en blanco, pinceles listos y un tiempo límite: así comenzó la
+          Batalla de Pintura. Cada participante interpretó un tema libre, llenando
+          el espacio de color, técnica y una mirada muy personal del arte.
+        </p>
+      </div>
+
+      <div class="category__content">
+        <div class="art-gallery reveal" aria-label="Galería artística de la Batalla de Pintura">
+          <figure class="art-gallery__item">
+            <img src="img/batalla de talentos parte-10.jpeg" alt="Participante pintando su obra durante la competencia" loading="lazy" width="900" height="700">
+            <figcaption>Trabajo en proceso sobre el lienzo</figcaption>
+          </figure>
+          <figure class="art-gallery__item">
+            <img src="img/batalla de talentos parte-6.jpeg" alt="Obra de pintura terminada expuesta durante el evento" loading="lazy" width="900" height="700">
+            <figcaption>Una de las obras finalizadas</figcaption>
+          </figure>
+          <figure class="art-gallery__item">
+            <img src="img/batalla de talentos parte-5.jpeg" alt="Detalle de técnica de pincel en una de las pinturas" loading="lazy" width="900" height="700">
+            <figcaption>Detalle de técnica y color</figcaption>
+          </figure>
+        </div>
+
+        <article class="personal-story reveal" aria-labelledby="historia-titulo">
+          <div class="personal-story__mark" aria-hidden="true">"</div>
+          <h3 id="historia-titulo" class="personal-story__title">Mi experiencia en la Batalla de Pintura</h3>
+          <p>
+            Tuve la oportunidad de participar en la competencia de pintura, y aunque no
+            obtuve el primer puesto, fue una de las experiencias más enriquecedoras del
+            evento. Frente al lienzo en blanco aprendí nuevas técnicas que no conocía,
+            experimenté con mezclas de color que nunca había intentado, y descubrí que el
+            verdadero reto no era ganar, sino atreverme a crear bajo presión y tiempo limitado.
+          </p>
+          <p>
+            Más allá del resultado, lo que más valoro es haber conocido a personas
+            increíblemente talentosas, cada una con un estilo propio, y haber compartido
+            con ellas ese momento de concentración, nervios y disfrute. La Batalla de
+            Pintura me dejó algo que ningún primer lugar podría darme: la certeza de que
+            disfruté cada minuto de ese lienzo en blanco.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ 5. BATALLA DE MÚSICA ============ -->
+    <section id="musica" class="category category--musica" aria-labelledby="musica-titulo">
+      <div class="category__intro reveal">
+        <p class="section-eyebrow">Escenario 04</p>
+        <h2 class="section-title" id="musica-titulo">Batalla de Música</h2>
+        <p class="section-lead">
+          La jornada cerró con sonido en vivo. Entre voces e instrumentos, los
+          participantes demostraron que la música también es una forma de contar
+          quiénes son, dividida en dos momentos: lo vocal y lo instrumental.
+        </p>
+      </div>
+
+      <div class="category__content">
+
+        <div class="music-sub" aria-labelledby="vocales-titulo">
+          <div class="music-sub__header reveal">
+            <span class="music-sub__tag">Artistas Vocales</span>
+            <h3 id="vocales-titulo">Cuando la voz fue el instrumento</h3>
+            <p>
+              Baladas, géneros urbanos y clásicos reinterpretados mostraron el rango y
+              la sensibilidad vocal de cada participante. Algunos arriesgaron con
+              versiones propias, otros conmovieron al público con interpretaciones
+              cargadas de emoción.
+            </p>
+          </div>
+          <div class="gallery reveal" aria-label="Galería de Artistas Vocales">
+            <figure class="gallery__item">
+              <img src="img/batalla de talentos parte-13.jpeg" alt="Participante cantando en la Batalla de Música, categoría vocal" loading="lazy" width="800" height="600">
+            </figure>
+            <figure class="gallery__item">
+              <img src="img/batalla de talentos parte-14.jpeg" alt="Artista vocal interpretando una canción frente al público" loading="lazy" width="800" height="600">
+            </figure>
+          </div>
+        </div>
+
+        <div class="music-sub music-sub--instrumental" aria-labelledby="instrumentales-titulo">
+          <div class="music-sub__header reveal">
+            <span class="music-sub__tag">Artistas Instrumentales</span>
+            <h3 id="instrumentales-titulo">Cuerdas, teclas y ritmo en vivo</h3>
+            <p>
+              Guitarras, teclados y otros instrumentos llenaron el escenario de
+              melodías propias y versiones instrumentales. Cada interpretación reveló
+              años de práctica y un dominio técnico que el público reconoció con
+              aplausos prolongados.
+            </p>
+          </div>
+          <div class="gallery reveal" aria-label="Galería de Artistas Instrumentales">
+            <figure class="gallery__item">
+              <img src="img/batalla de talentos parte-15.jpeg" alt="Participante tocando un instrumento musical durante la Batalla de Música" loading="lazy" width="800" height="600">
+            </figure>
+            <figure class="gallery__item">
+              <img src="img/batalla de talentos parte-1.jpeg" alt="Momento instrumental en vivo durante el evento" loading="lazy" width="800" height="600">
+            </figure>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ 6. PREMIACIÓN ============ -->
+    <section id="premiacion" class="category category--premiacion" aria-labelledby="premiacion-titulo">
+      <div class="category__intro reveal">
+        <p class="section-eyebrow">Escenario 05 · Cierre</p>
+        <h2 class="section-title" id="premiacion-titulo">Premiación</h2>
+        <p class="section-lead">
+          La jornada cerró reconociendo a los ganadores de cada categoría, pero,
+          sobre todo, celebrando el esfuerzo, la entrega y el talento de cada
+          persona que se atrevió a subir al escenario.
+        </p>
+      </div>
+
+      <div class="category__content">
+        <div class="video-frame reveal">
+          <video controls preload="metadata" class="video-frame__video" aria-label="Video de la ceremonia de premiación de la Batalla de Talentos">
+            <source src="https://res.cloudinary.com/dkamrnfvv/video/upload/v1781899993/video_de_la_guerra_xqdsye.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de este video.
+          </video>
+          
+          
+        </div>
+
+        <div class="gallery reveal" aria-label="Galería de fotografías de la ceremonia de premiación">
+          <figure class="gallery__item">
+            <img src="img/batalla de talentos parte-2.jpeg" alt="Ganadores recibiendo su reconocimiento en la ceremonia de premiación" loading="lazy" width="800" height="600">
+          </figure>
+          <figure class="gallery__item gallery__item--tall">
+            <img src="img/batalla de talentos parte-6.jpeg" alt="Participantes celebrando juntos al cierre del evento" loading="lazy" width="800" height="1000">
+          </figure>
+          <figure class="gallery__item">
+            <img src="img/batalla de talentos parte-11.jpeg" alt="Foto grupal de cierre de la Batalla de Talentos SENA" loading="lazy" width="800" height="600">
+          </figure>
+        </div>
+        
+
+        <p class="closing-message reveal">
+          Gracias a cada participante que llenó el escenario de talento, y a cada
+          espectador que lo convirtió en una fiesta de creatividad y compañerismo.
+          La Batalla de Talentos demostró que, en el SENA, el arte también se aprende,
+          se practica y se celebra en comunidad.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div class="site-footer__brand">
+        <span class="nav-brand__mark">BT</span>
+        <p>Batalla de Talentos<br><span>SENA</span></p>
+      </div>
+
+      <nav class="site-footer__links" aria-label="Enlaces del pie de página">
+        <a href="#inicio">Inicio</a>
+        <a href="#baile">Baile</a>
+        <a href="#literatura">Literatura</a>
+        <a href="#pintura">Pintura</a>
+        <a href="#musica">Música</a>
+        <a href="#premiacion">Premiación</a>
+      </nav>
+
+      <p class="site-footer__copy">
+        &copy; <span id="anio-actual">2026</span> Batalla de Talentos — SENA. Memoria visual creada con orgullo por sus participantes.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Botón flotante: volver arriba -->
+  <button id="backToTop" class="back-to-top" aria-label="Volver al inicio">↑</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
